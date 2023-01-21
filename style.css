@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.navigation {
+    position: relative;
+    left: 80%;
+    bottom: 40px;
+}
+
+.navigation a {
+    padding: 15px;
+}
+.splash {
+    position: relative;
+    left: 0px;
+    top: 38px;
+    background-size: cover;
+    z-index:1;
+}
+
+.splashContent h1, .splashContent h3 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+.full {
+    position: relative;
+    z-index: 1;
+    
+}
+
+p {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgBox {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.imgBox img {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    width: 300px;
+    height: 240px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.box h1,h3 {
+    margin: 0px;
+}
+
+.second {
+    position: relative;
+    top: -16px;
+}
+
+.links {
+    position:relative;
+    top: -10px;
+    text-align: center;
+    word-spacing: 200px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0px;
+}
+
+.copyright p {
+    height: 20px;
+    padding: 0px;
+}
